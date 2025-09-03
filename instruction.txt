@@ -1,0 +1,20 @@
+8장 실행 방법
+
+1. anaconda 에서 distribution installer 설치
+2. anaconda powershell 실행
+3. cd \users\user
+4. mkdir rne
+5. cd rne
+6. (git 명령어 경로를 인식하는 다른 터미널을 띄워서) 
+git clone https://github.com/oreilly-mlsec/book-resources/
+7. (콘다 터미널에서) conda create --name rne python=3.6
+8. conda activate rne
+9. cd book-resources
+10. pip install -r requirements.txt
+(해보면서 Error가 나는 패키지 주석을 달아 코멘트 처리 -> install 다시 시도)
+(아래 두 패키지만 주석 처리하면 설치 완료되었음)
+  #pyflux==0.4.15
+  #spark-sklearn==0.2.3
+11. cd chapter8
+12. python
+13. jupyter노트북 명령어를 실행해보기 
